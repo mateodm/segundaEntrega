@@ -1,0 +1,23 @@
+/* Nosotros */
+.nosotros_titulo {
+    font-size: 4.8vh;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Nunito', sans-serif;
+}
+.nosotros_texto {
+    font-size: 3.2vh;
+    max-width: -8vw;
+    display: grid;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 590;
+    text-align: center;
+}
+.nosotros_imagen {
+    margin-top: 0.6vh;
+    height: 79%;
+    width: 100%;
+}

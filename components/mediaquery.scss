@@ -1,0 +1,102 @@
+/* Tablet */
+@media only screen and (min-width: 700px) and (max-width: 991px) {
+    /* Menu hamburguesa */
+    .navbar-toggler img{
+        margin-left: 5vw;
+        margin-bottom: 1vh;
+        height: 20%;
+        width: 30%;
+    }
+    /* Sacar border bottom */
+    .nav-link {
+        border-bottom: solid 0px;
+    }
+    /* Texto Box Header */
+    .boxheader {
+        font-size: 2vw;
+    }
+    /* Productos Texto */
+    .card-title {
+        font-weight: 600;
+        font-size: 2.2vw;
+        text-align: center;
+      } 
+    .card-text {
+        font-size: 1.9vw;
+        text-align: start;
+      }
+    .dark-grey-text {
+        font-size: 1.5vw;
+    }
+    .botones_productos {
+        font-size: 2.5vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        margin: auto;
+    }
+    /* Nosotros Texto e Imagen */
+    .nosotros_titulo {
+        font-size: 6vh;
+    }
+    .nosotros_texto {
+        font-size: 2.9vh;
+    }
+    .nosotros_imagen {
+        height: 90%;
+        width: 35vw;
+    }
+    /* Contacto iframe */
+    iframe {
+        width: 42vw;
+    }
+}
+        /* Movil */
+@media only screen and (max-width: 692px) {
+        /* Menu hamburguesa */
+        .navbar-toggler img{
+            margin-left: 11vw;
+            margin-bottom: 3vh;
+            height: 20%;
+            width: 30%;
+        }
+        /* Box Header */
+        .boxheader {
+            font-size: 3.6vw;
+        }
+        /* Carousel Ajuste Texto */
+        .carousel-caption {
+            font-size: 3.1vh;
+        }
+        .carousel_grilla_envios {
+            font-size: 2.3vh;
+        }
+        /* Productos Texto */
+        .card-title {
+            font-weight: 600;
+            font-size: 5vw;
+            text-align: center;
+      } 
+     .card-text {
+        font-size: 4vw;
+        text-align: start;
+      }
+    .dark-grey-text {
+        font-size: 4vw;
+    }
+    .botones_productos {
+        font-size: 5vw;
+        margin: auto;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+    /* Testimonios */
+    .testimonial {
+        margin: auto;
+    }
+    /* Iframe */
+    iframe {
+        margin-top: 2vh;
+        height: 60vh;
+        width: 100vw;
+    }
+}

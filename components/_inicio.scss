@@ -1,0 +1,73 @@
+/* Main */
+.maximiza_titulo {
+    font-family: 'Nunito', sans-serif;
+    font-size: 3vw;
+    font-weight: 900;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.card {
+    font-family: 'Nunito', sans-serif;
+        &-title {
+            font-size: 2.3vw;
+            text-align: center;
+            font-weight: 500;
+        }
+        &-text {
+            font-size: 0.98vw;
+        }
+}
+/* Carousel */
+.carousel-item img{
+    width: 100vw;
+    height: 60vh;
+    opacity: 0.94;
+}
+.carousel-caption {
+    font-size: 4.3vh;
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+}
+.carousel_grilla_envios{
+    @include botones;
+    font-weight: 500;
+    margin-top: 2vh;
+    font-family: 'Cinzel', serif;
+    font-size: 3vh;
+        &:hover {
+            border: solid 1px; border-color: $color-header;
+            color: white;
+        }
+    }
+.productos_titulo {
+    display: grid;
+    font-size: 4.5vh;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 0px;
+    max-width: 98vw;
+}
+.botones_productos {
+    @include botones;
+ }
+.boton_carousel {
+    @include botones;
+    margin-bottom: 10vh;
+    margin-left: 9vw;
+        &:hover {
+            @include botoneshover
+        } 
+    }
+.card-up {
+    background-color: $color-verde;
+}
+.testimonial {
+    margin-right: 4.7vw;
+}
+.avatar img {
+    height: 100%;
+}

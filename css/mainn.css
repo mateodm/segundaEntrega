@@ -1,0 +1,464 @@
+/* Principal MAP*/
+/* Secundario */
+body {
+  font-family: 'nunito', sans-serif; }
+
+.row {
+  max-width: 99.6vw; }
+
+li ul {
+  text-decoration: none; }
+
+/* Header */
+.header {
+  font-size: 1.5vw;
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+  background-color: #F1F2F4; }
+
+.logo {
+  margin: auto; }
+  .logo img {
+    height: 11.9vh; }
+
+.navbar img {
+  height: 6.3vh;
+  margin-top: 1vh;
+  justify-content: left; }
+
+.navbar .navbar-nav {
+  color: #F1F2F4;
+  margin-right: 8vw; }
+
+.navbar .nav-link {
+  margin-left: 7vw;
+  margin-top: 1vh;
+  color: #00893c; }
+  .navbar .nav-link:hover {
+    border-bottom: solid 3px;
+    color: #00893c;
+    border-color: #00893c;
+    transition: all 0.3s;
+    -o-transition-delay: 0.85s;
+    transition-delay: 0.25s; }
+
+/* Boxheader */
+.boxheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.2vh;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  background-color: #00893c;
+  color: white;
+  text-align: center; }
+
+/* Background */
+.background {
+  background-repeat: no-repeat;
+  background-color: #F1F2F4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  padding-bottom: 0.1vh; }
+
+.intentodeopacidad {
+  opacity: 0.9;
+  background-color: #F1F2F4;
+  padding-bottom: 1vh;
+  padding-top: 1vh; }
+
+.backgroundcolor_productos {
+  opacity: 0.92;
+  background-color: #f1f2f4;
+  padding-bottom: 3vh;
+  padding-top: 3vh; }
+
+/* Footer */
+.boxfooter {
+  background-color: #00893c;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1vh;
+  padding-bottom: 1vh; }
+
+.footer {
+  background-color: #F1F2F4;
+  font-family: 'Nunito', sans-serif;
+  border: solid 1px;
+  color: #00893c;
+  padding-top: 2vh;
+  padding-bottom: 2vh; }
+  .footercontactanos {
+    font-size: 4vh;
+    font-weight: 200;
+    color: #00893c;
+    display: grid;
+    justify-content: center; }
+    .footercontactanos_contenido {
+      font-size: 3vh;
+      color: #00893c;
+      font-weight: 200;
+      text-decoration: none;
+      display: grid;
+      justify-content: center;
+      align-items: flex-end; }
+      .footercontactanos_contenido:hover {
+        opacity: 0.6; }
+  .footer .botonfooter {
+    width: fit-content;
+    height: fit-content;
+    padding: 1vh 2vw 1vh 2vw;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+    margin-left: 0vw;
+    font-size: 2.85vh;
+    color: white;
+    background-color: #00893c;
+    text-decoration: none; }
+    .footer .botonfooter:hover {
+      transition: all 0.3s ease;
+      position: relative;
+      text-decoration: none;
+      background-color: #F1F2F4;
+      color: #00893c;
+      border: solid 1px;
+      border-color: #00893c; }
+  .footer .redessociales {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .footer .redessociales_imagenes {
+      width: 60%;
+      height: 60%;
+      margin: 0vh 6vw; }
+      .footer .redessociales_imagenes:hover {
+        opacity: 0.8; }
+  .footer .lista {
+    margin-right: 4vw; }
+
+/* Testimonios */
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem; }
+
+.testimonial-card .avatar {
+  width: 130px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 3px solid #fff;
+  border-radius: 50%; }
+
+.btn {
+  width: fit-content;
+  height: fit-content;
+  padding: 1vh 2vw 1vh 2vw;
+  padding-left: 0.5vh;
+  padding-right: 0.5vh;
+  margin-left: 0vw;
+  font-size: 2.85vh;
+  color: white;
+  background-color: #00893c;
+  text-decoration: none;
+  border: solid 0px; }
+  .btn:hover {
+    transition: all 0.3s ease;
+    position: relative;
+    text-decoration: none;
+    background-color: #F1F2F4;
+    color: #00893c;
+    border: solid 1px;
+    border-color: #00893c; }
+
+/* Main */
+.maximiza_titulo, .paneles_titulo {
+  font-family: 'Nunito', sans-serif;
+  font-size: 4vw;
+  font-weight: 900;
+  padding: 0px 0px 0px 0px;
+  margin: 0px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  align-items: center; }
+
+.card {
+  font-family: 'Nunito', sans-serif; }
+  .card-title {
+    font-size: 2.3vw;
+    text-align: center;
+    font-weight: 500; }
+  .card-text {
+    font-size: 0.98vw; }
+
+/* Carousel */
+.carousel-item img {
+  width: 100vw;
+  height: 58vh;
+  opacity: 0.94; }
+
+.carousel-caption {
+  font-size: 2.1vw;
+  font-weight: 1000;
+  font-family: 'Nunito', sans-serif; }
+
+.carousel_grilla_envios {
+  width: fit-content;
+  height: fit-content;
+  padding: 1vh 2vw 1vh 2vw;
+  padding-left: 0.5vh;
+  padding-right: 0.5vh;
+  margin-left: 0vw;
+  font-size: 2.85vh;
+  color: white;
+  background-color: #00893c;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 2vh;
+  font-family: 'Nunito', sans-serif;
+  font-size: 3vh; }
+  .carousel_grilla_envios:hover {
+    opacity: 0.9;
+    color: white; }
+
+.productos_titulo {
+  display: grid;
+  font-size: 4.5vh;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 0px;
+  max-width: 98vw; }
+
+.botones_productos {
+  width: fit-content;
+  height: fit-content;
+  padding: 1vh 2vw 1vh 2vw;
+  padding-left: 0.5vh;
+  padding-right: 0.5vh;
+  margin-left: 0vw;
+  font-size: 2.85vh;
+  color: white;
+  background-color: #00893c;
+  text-decoration: none; }
+
+.boton_carousel {
+  width: fit-content;
+  height: fit-content;
+  padding: 1vh 2vw 1vh 2vw;
+  padding-left: 0.5vh;
+  padding-right: 0.5vh;
+  margin-left: 0vw;
+  font-size: 2.85vh;
+  color: white;
+  background-color: #00893c;
+  text-decoration: none;
+  margin-bottom: 10vh;
+  margin-left: 9vw; }
+  .boton_carousel:hover {
+    transition: all 0.3s ease;
+    position: relative;
+    text-decoration: none;
+    background-color: #F1F2F4;
+    color: #00893c;
+    border: solid 1px;
+    border-color: #00893c; }
+
+.card-up {
+  background-color: #00893c; }
+
+.testimonial {
+  margin-right: 4.7vw; }
+
+.avatar img {
+  height: 100%; }
+
+/* Productos */
+.fichaproductos {
+  display: grid;
+  justify-content: center;
+  text-align: center; }
+  .fichaproductos button {
+    font-size: 2.5vh;
+    background-color: #00893c;
+    color: white; }
+  .fichaproductos_imagen {
+    border: solid 3px; }
+
+.card {
+  padding-top: 0.35vw;
+  padding-left: 0.35vw;
+  padding-right: 0.35vw;
+ }
+
+.card-title {
+  font-size: 1.4vw; }
+
+.card-precio {
+  font-size: 1.2vw;
+  font-weight: 800;
+
+}
+/* Nosotros */
+.nosotros_titulo {
+  font-size: 4.8vh;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Nunito', sans-serif; }
+
+.nosotros_texto {
+  font-size: 3.2vh;
+  max-width: -8vw;
+  display: grid;
+  justify-content: center;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 590;
+  text-align: center; }
+
+.nosotros_imagen {
+  margin-top: 0.6vh;
+  height: 79%;
+  width: 100%; }
+
+/* Contacto */
+iframe {
+  width: 110%;
+  height: 98%;
+  display: grid; }
+
+.boton_contacto {
+  display: grid;
+  justify-content: center; }
+
+/* FAQ */
+.faq_titulo {
+  display: grid;
+  justify-content: center;
+  font-size: 5vh;
+  text-align: center;
+  font-family: 'Nunito', sans-serif; }
+
+.faq_contenido {
+  display: grid;
+  justify-content: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2.5vh; }
+
+.accordion {
+  /* Con esto edito el background cuando se despliega */
+  width: 60vw;
+  background-color: white; }
+
+.accordion-button {
+  background-color: #00893c;
+  color: white; }
+
+/* Tablet */
+@media only screen and (min-width: 700px) and (max-width: 991px) {
+  /* Menu hamburguesa */
+  .navbar-toggler img {
+    margin-left: 5vw;
+    margin-bottom: 1vh;
+    height: 20%;
+    width: 30%; }
+  /* Sacar border bottom */
+  .nav-link {
+    border-bottom: solid 0px; }
+  /* Texto Box Header */
+  .boxheader {
+    font-size: 2vw; }
+  /* Productos Texto */
+  .card-title {
+    font-weight: 600;
+    font-size: 2.2vw;
+    text-align: center; }
+  .card-text {
+    font-size: 1.9vw;
+    text-align: start; }
+  .dark-grey-text {
+    font-size: 1.5vw; }
+  .botones_productos {
+    font-size: 2.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin: auto; }
+  /* Nosotros Texto e Imagen */
+  .nosotros_titulo {
+    font-size: 6vh; }
+  .nosotros_texto {
+    font-size: 2.9vh; }
+  .nosotros_imagen {
+    height: 90%;
+    width: 35vw; }
+  /* Contacto iframe */
+  iframe {
+    width: 42vw; } }
+
+/* Movil */
+@media only screen and (max-width: 692px) {
+  /* Menu hamburguesa */
+  .navbar-toggler img {
+    margin-left: 11vw;
+    margin-bottom: 3vh;
+    height: 20%;
+    width: 30%; }
+  /* Box Header */
+  .boxheader {
+    font-size: 3.6vw; }
+  /* Carousel Ajuste Texto */
+  .carousel-caption {
+    font-size: 3.1vh; }
+    .carousel_grilla_envios {
+      font-size: 3.4vw;
+    }
+    .footercontactanos_contenido {
+      font-size: 6vw;
+      margin-left: 4vw;
+    }
+    .botonfooter {
+      text-align: center;
+    }
+  .carousel_grilla_envios {
+    font-size: 2.3vh; }
+  /* Productos Texto */
+  .card-title {
+    font-weight: 600;
+    font-size: 5vw;
+    text-align: center; }
+  .card-text {
+    font-size: 4vw;
+    text-align: start; }
+  .dark-grey-text {
+    font-size: 4vw; }
+  .botones_productos {
+    font-size: 5vw;
+    margin: auto;
+    padding-left: 3vw;
+    padding-right: 3vw; }
+  /* Testimonios */
+  .testimonial {
+    margin: auto; }
+  /* Iframe */
+  iframe {
+    margin-top: 2vh;
+    height: 60vh;
+    width: 100vw; } 
+  /* FAQ */
+  .accordion-header {
+    width: 91vw;
+  }
+  .accordion-body {
+    width: 91vw;
+  }
+  .accordion-item {
+    width: 91vw;
+  }
+  
+  }

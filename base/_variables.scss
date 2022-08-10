@@ -1,0 +1,31 @@
+/* Principal MAP*/
+$color-principal: #F1F2F4;
+$color-contrario-principal: #f1f2f4;
+$color-verde: #00893c;
+$color-header: #F1F2F4;
+
+
+
+/* Secundario */
+@mixin botones
+ {
+    width: fit-content;
+    height: fit-content;
+    padding: 1vh 2vw 1vh 2vw;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+    margin-left: 0vw;
+    font-size: 2.85vh;
+    color: white;
+    background-color: $color-verde;
+    text-decoration: none;
+ }
+@mixin botoneshover {
+    transition: all 0.3s ease;
+    position: relative;
+    text-decoration: none;
+    background-color: $color-principal;
+    color: $color-verde;
+    border: solid 1px;
+    border-color: $color-verde;
+}

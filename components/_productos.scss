@@ -1,0 +1,29 @@
+/* Productos */
+.paneles_titulo {
+    @extend .maximiza_titulo;
+}
+.fichaproductos {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+        & button {
+            font-size: 2.5vh;
+            background-color: $color-verde;
+            color: white;
+    }
+        &_imagen{
+            border: solid 3px;
+    }
+    }
+.card {
+    padding-top: 0.35vw;
+    padding-left: 0.35vw;
+    padding-right: 0.35vw;
+}
+.card-title {
+    font-size: 3vh;
+}
+.card-precio {
+    font-size: 3vh;
+    font-weight: 600;
+}

@@ -1,0 +1,22 @@
+/* FAQ */
+.faq_titulo {
+    display: grid;
+    justify-content: center;
+    font-size: 5vh;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+.faq_contenido {
+    display: grid;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5vh;
+}
+.accordion{ /* Con esto edito el background cuando se despliega */
+    width: 60vw;
+    background-color: white;
+}
+.accordion-button {
+    background-color: $color-verde;
+    color: white;
+}

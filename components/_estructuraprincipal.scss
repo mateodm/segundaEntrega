@@ -1,0 +1,160 @@
+body {
+    font-family: 'Cinzel', serif;
+}
+.row {
+    max-width: 99.6vw;
+}
+li ul {
+    text-decoration: none;
+}
+/* Header */
+.header {
+    font-size: 3vh;
+    width: 100%;
+    font-family: 'Cinzel', serif;
+    background-color: $color-header;
+}
+.logo {
+        margin: auto;
+        & img {
+            height: 14.5vh;
+        }
+}
+    .navbar {
+        & img {
+            height: 6.3vh;
+            margin-top: 1vh;
+            justify-content: left;
+        }
+        .navbar-brand {
+        }
+        .navbar-nav {
+            color: $color-principal;
+            margin-right: 9vw;
+        }
+        .nav-link {
+            margin-left: 7vw;
+            margin-top: 1vh;
+            color: $color-verde;
+    
+            &:hover {      
+                border-bottom: solid 3px;
+                color: $color-verde;
+                border-color: $color-verde;
+                transition: all 0.3s;
+                -o-transition-delay: 0.85s;
+                transition-delay: 0.25s;
+        }
+        }
+    }
+/* Boxheader */
+.boxheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    background-color: $color-verde;
+    color: white;
+    text-align: center;
+}
+/* Background */
+.background {
+    background-repeat: no-repeat;
+    background-color: $color-principal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    padding-bottom: 0.1vh;
+}
+.intentodeopacidad {
+    opacity: 0.9;
+    background-color: $color-principal;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+}
+.backgroundcolor_productos {
+    opacity: 0.92;
+    background-color: $color-contrario-principal;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+}
+/* Footer */
+.boxfooter {
+    background-color: $color-verde;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+
+}
+.footer {
+    background-color: $color-principal;
+    border: solid 1px; color: $color-verde;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    &contactanos {
+        font-size: 4vh;
+        font-weight: 400;
+        color: $color-verde;
+        display: grid;
+        justify-content: center;
+        &_contenido {
+            font-size: 3vh;
+            color: $color-verde;
+            font-weight: 200;
+            text-decoration: none;
+            display: grid;
+            justify-content: center;
+            align-items: flex-end;
+                &:hover {
+                    opacity: 0.6;
+                }
+        }
+    }
+.botonfooter {
+    @include botones;
+    &:hover {
+    @include botoneshover
+}
+ }
+.redessociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        &_imagenes{
+        width: 60%;
+        height: 60%;
+        margin: 0vh 6vw;
+            &:hover {
+                opacity: 0.8;
+    } 
+    }
+}
+.lista {
+    margin-right: 4vw;
+    }
+}
+/* Testimonios */
+    .testimonial-card .card-up { 
+        height: 120px; 
+        overflow: hidden; 
+        border-top-left-radius: 0.25rem; 
+        border-top-right-radius: 0.25rem; } 
+    .testimonial-card .avatar {
+        width: 130px;
+        margin-top: -60px;
+        overflow: hidden; 
+        border: 3px solid #fff; 
+    border-radius: 50%; 
+}
+    .btn {
+        @include botones;
+        border: solid 0px;
+            &:hover {
+                @include botoneshover;
+            }
+    }
