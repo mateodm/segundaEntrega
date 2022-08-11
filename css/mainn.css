@@ -41,7 +41,11 @@ li ul {
     transition: all 0.3s;
     -o-transition-delay: 0.85s;
     transition-delay: 0.25s; }
-
+  .contenedor-carrito {
+  }
+  .imagen-carrito {
+    margin-top: 2.5vh;
+  }
 /* Boxheader */
 .boxheader {
   display: flex;
