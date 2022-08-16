@@ -50,11 +50,10 @@ stock.forEach((producto) => {
     div.classList.add("producto")
     div.innerHTML = `
     <div class="card col-md-12 mb-4">
-    <img id="imagen" src=${producto.img} class="card-img-top" alt="Panel Led Indoor 100w"/>
+    <img id="imagen" src=${producto.img} class="card-img-top" alt="Producto"/>
     <div class="card-body">
     <h5 id="nombre" class="card-title"> ${producto.nombre}</h5>
     <p id="precio" class="card-text card-precio"> $${producto.precio} ars</p>
-    <button onclick="agregarAlCarrito(${producto.id})" class="btn d-block btn-success botones_productos">Agregar al carrito</button>
     </div>
     </div>
     `
